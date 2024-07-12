@@ -1,0 +1,29 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# IDE Files
+.idea/
+.vscode/
+*.iml
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Generated/processed datasets (keep only raw)
+data/laptop_cleaned.csv
+data/laptop_engineered.csv
+data/laptop_final.csv
+
+# Model pickle files (too large for GitHub)
+data/pipe.pkl
+data/df.pkl
+
+# Generated plots
+data/*.png
